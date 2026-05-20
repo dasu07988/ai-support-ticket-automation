@@ -10,28 +10,39 @@ The system automatically converts user support requests into Trello support tick
 
 - AI-powered ticket creation
 - Real-time Trello API integration
-- Automatic Trello URL generation
 - Flowise Tool Agent workflow
 - Prompt-driven automation
 - AI tool orchestration
+- Automatic Trello URL generation
+-  AI-driven tool calling
+
 
 ---
 
 ## 🛠 Tech Stack
-
-- Flowise
-- Google Gemini 2.5 Flash Lite
-- Trello API
-- JavaScript
-- Node.js
-
----
-
-## 📌 Workflow
-
-User Request → Flowise Tool Agent → Gemini → Trello API → Trello Card URL
+- **Flowise**
+- **Google Gemini 2.5 Flash Lite**
+- **Trello API**
+- **JavaScript**
+- **Node.js**
 
 ---
+---
+
+## 🧠 Workflow Architecture
+
+User Request
+↓
+Flowise Tool Agent
+↓
+Google Gemini 2.5 Flash Lite
+↓
+Custom JavaScript Tool
+↓
+Trello API
+↓
+Generated Trello Ticket URL
+
 
 ## ⚡ Challenges Faced
 
